@@ -8,17 +8,16 @@ const styles = {
       button: {
         textAlign: "center",
       },
-      input: {
-        width: "33%",
-        background: "#e8eaf6",
-        margin: "0 auto",
-      }
   };
   
 function Header(props) {
   return (
     <div>
       <h1 style={styles.Header} className="jumbotron">Employees</h1>
+      <div style={styles.button}>
+        <button className="btn" onClick={props.sortemployee}>Sort by name</button>
+        <button className="btn" onClick={props.sortsalary} >Sort by Salary</button>
+        </div>
     </div>
   );
 }

@@ -1,21 +1,29 @@
 import React from "react";
 
+const styles ={
+  image:{
+    height: "150px",
+    width: "150px"
+  },
+  table:{
+    margin: "0 auto"
+  },
+
+}
 
 function employeecard(props) {
   return (
-    <>
-      <thead className="table">
+    <tbody>
         <tr>
-          <th>
-            <img alt="" src={props.image} />
-          </th>
-          <th scope="col">{props.name}</th>
-          <th scope="col">{props.title}</th>
-          <th scope="col">{props.number}</th>
-          <th scope="col">{props.salary}</th>
+          <td>
+            <img style={styles.image} alt="" src={props.image} />
+          </td>
+          <td >{props.name}</td>
+          <td > {props.title}</td>
+          <td > {props.number}</td>
+          <td >{props.salary}</td>
         </tr>
-      </thead>
-    </>
+        </tbody>
   );
 }
 

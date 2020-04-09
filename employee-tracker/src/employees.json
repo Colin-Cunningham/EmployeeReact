@@ -2,74 +2,98 @@
     {
       "id": 1,
       "name": "Michael Scott",
+      "image": "https://66.media.tumblr.com/3a8c56d900d560816aa1cffc58d528b0/dc247a8828ce3176-5f/s400x600/33f2b27131b75de26221a377c375f7a5a1cbcb5d.png",
       "title": "Manager",
-      "phoneNumber": "202-555-0192"
+      "phoneNumber": "570-867-5309",
+      "salary": 50000
     },
     {
       "id": 2,
       "name": "Jim Halpert",
+      "image": "https://66.media.tumblr.com/3a8c56d900d560816aa1cffc58d528b0/dc247a8828ce3176-5f/s400x600/33f2b27131b75de26221a377c375f7a5a1cbcb5d.png",
       "title": "Co-Manager",
-      "phoneNumber": "A Giant Anchor"
+      "phoneNumber": "570-123-6980",
+      "salary": 100000
     },
     {
       "id": 3,
       "name": "Pam Beasly",
-      "title": "Cashier",
-      "phoneNumber": "An Easter Island Head"
+      "image": "https://66.media.tumblr.com/3a8c56d900d560816aa1cffc58d528b0/dc247a8828ce3176-5f/s400x600/33f2b27131b75de26221a377c375f7a5a1cbcb5d.png",
+      "title": "Office Manager",
+      "phoneNumber": "An Easter Island Head",
+      "salary": 52000
     },
     {
       "id": 4,
-      "name": "Dexter",
-      "title": "Boy Genius",
-      "phoneNumber": "A Secret Laboratory"
+      "name": "Creed Bratton",
+      "image": "https://66.media.tumblr.com/3a8c56d900d560816aa1cffc58d528b0/dc247a8828ce3176-5f/s400x600/33f2b27131b75de26221a377c375f7a5a1cbcb5d.png",
+      "title": "Quality Assurance",
+      "phoneNumber": "",
+      "salary": 63000
     },
     {
       "id": 5,
       "name": "Courage",
+      "image": "https://66.media.tumblr.com/3a8c56d900d560816aa1cffc58d528b0/dc247a8828ce3176-5f/s400x600/33f2b27131b75de26221a377c375f7a5a1cbcb5d.png",
       "title": "A Cowardly Dog",
-      "phoneNumber": "Nowhere, Kansas"
+      "phoneNumber": "Nowhere, Kansas",
+      "salary": 65000
     },
     {
       "id": 6,
       "name": "Doug Funnie",
+      "image": "https://66.media.tumblr.com/3a8c56d900d560816aa1cffc58d528b0/dc247a8828ce3176-5f/s400x600/33f2b27131b75de26221a377c375f7a5a1cbcb5d.png",
       "title": "Student",
-      "phoneNumber": "Bluffington"
+      "phoneNumber": "Bluffington",
+      "salary": 82000
     },
     {
       "id": 7,
       "name": "Bugs Bunny",
+      "image": "https://66.media.tumblr.com/3a8c56d900d560816aa1cffc58d528b0/dc247a8828ce3176-5f/s400x600/33f2b27131b75de26221a377c375f7a5a1cbcb5d.png",
       "title": "Looney Toon",
-      "phoneNumber": "A Rabbit Burrow"
+      "phoneNumber": "A Rabbit Burrow",
+      "salary": 88000
     },
     {
       "id": 8,
       "name": "Johnny Bravo",
+      "image": "https://66.media.tumblr.com/3a8c56d900d560816aa1cffc58d528b0/dc247a8828ce3176-5f/s400x600/33f2b27131b75de26221a377c375f7a5a1cbcb5d.png",
       "title": "Ladies Man",
-      "phoneNumber": "Aron City"
+      "phoneNumber": "Aron City",
+      "salary": 61000
     },
     {
       "id": 9,
       "name": "Tommy Pickles",
+      "image": "https://66.media.tumblr.com/3a8c56d900d560816aa1cffc58d528b0/dc247a8828ce3176-5f/s400x600/33f2b27131b75de26221a377c375f7a5a1cbcb5d.png",
       "title": "Adventurer",
-      "phoneNumber": "California"
+      "phoneNumber": "California",
+      "salary": 82000
     },
     {
       "id": 10,
       "name": "Rocko",
+      "image": "https://66.media.tumblr.com/3a8c56d900d560816aa1cffc58d528b0/dc247a8828ce3176-5f/s400x600/33f2b27131b75de26221a377c375f7a5a1cbcb5d.png",
       "title": "Cashier",
-      "phoneNumber": "202-555-0192"
+      "phoneNumber": "202-555-0192",
+      "salary": 45000
     },
     {
       "id": 11,
       "name": "Captain Planet",
+      "image": "https://66.media.tumblr.com/3a8c56d900d560816aa1cffc58d528b0/dc247a8828ce3176-5f/s400x600/33f2b27131b75de26221a377c375f7a5a1cbcb5d.png",
       "title": "Superhero",
-      "phoneNumber": "202-555-0192"
+      "phoneNumber": "202-555-0192",
+      "salary": 40000
     },
     {
       "id": 12,
       "name": "Ickis",
+      "image": "https://66.media.tumblr.com/3a8c56d900d560816aa1cffc58d528b0/dc247a8828ce3176-5f/s400x600/33f2b27131b75de26221a377c375f7a5a1cbcb5d.png",
       "title": "Ahhhh! A Real Monster!",
-      "phoneNumber": "202-555-0192"
+      "phoneNumber": "202-555-0192",
+      "salary": 60000
     }
   ]
   

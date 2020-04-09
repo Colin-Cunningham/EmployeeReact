@@ -2,14 +2,19 @@ import React from "react";
 import Header from "./components/Header";
 import employees from "./employees.json";
 import Employeecard from "./components/pages/employeeCard"
-
+import Wrapper from "./components/Wrapper"
 const styles = {
   Header: {
     textAlign: "center",
     background: "#e8eaf6"
   },
     button: {
-      textAlign: "center",
+     width: "12%",
+     background: "black",
+     color: "white"
+    },
+    form:{
+      textAlign: "center"
     },
     input: {
       width: "33%",
@@ -36,19 +41,29 @@ class Employees extends React.Component{
     event.preventDefault();
     const name = this.state.name
     const updatedemployees = this.state.employees.filter(employee => employee.name === name)
+    if(updatedemployees < 1){
+      alert("Employee Doesnt Exist, remember to search by first and last name")
+    }else{
+      this.setState({ employees: updatedemployees});
+    }
+  };
+
+  sortemployee = name => {
+    name.preventDefault();
+    const updatedemployees = this.state.employees.sort((a, b) => a.name.localeCompare(b.name))
     this.setState({ employees: updatedemployees});
   };
 
-
-  removeFriend = title => {
-    const updatedemployees = this.state.employees.filter(employee => employee.title !== title)
+  sortsalary = salary => {
+    salary.preventDefault();
+    const updatedemployees = this.state.employees.sort((a, b) => {return b.salary - a.salary})
     this.setState({ employees: updatedemployees});
   };
 
   render(){return (
     <>
-    <Header/>
-    <form className="md-form ">
+    <Header sortemployee={this.sortemployee} sortsalary={this.sortsalary}/>
+    <form  style={styles.form}className="md-form ">
         <input
         style={styles.input}
         className="form-control"
@@ -58,10 +73,10 @@ class Employees extends React.Component{
         type="text"
         placeholder="Search Employee By Name"
         />
-        <button onClick={this.handleFormSubmit}>Submit</button>
-        <button style={styles.button}>Filter out Managers</button>
-       
+        <button style={styles.button} className="btn" onClick={this.handleFormSubmit}>Submit</button>
       </form>
+      <table className="table">
+      <Wrapper>
       {this.state.employees.map(employee => (
             <Employeecard
             sortemployee={this.removeEmployee}
@@ -70,8 +85,11 @@ class Employees extends React.Component{
             image={employee.image}
             title={employee.title}
             number={employee.phoneNumber}
+            salary={employee.salary}
           />
           ))}
+      </Wrapper>
+      </table>
   </>
   )}}
 
