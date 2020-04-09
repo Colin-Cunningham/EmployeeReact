@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "Michael Scott",
+      "title": "Manager",
+      "phoneNumber": "202-555-0192"
+    },
+    {
+      "id": 2,
+      "name": "Jim Halpert",
+      "title": "Co-Manager",
+      "phoneNumber": "A Giant Anchor"
+    },
+    {
+      "id": 3,
+      "name": "Pam Beasly",
+      "title": "Cashier",
+      "phoneNumber": "An Easter Island Head"
+    },
+    {
+      "id": 4,
+      "name": "Dexter",
+      "title": "Boy Genius",
+      "phoneNumber": "A Secret Laboratory"
+    },
+    {
+      "id": 5,
+      "name": "Courage",
+      "title": "A Cowardly Dog",
+      "phoneNumber": "Nowhere, Kansas"
+    },
+    {
+      "id": 6,
+      "name": "Doug Funnie",
+      "title": "Student",
+      "phoneNumber": "Bluffington"
+    },
+    {
+      "id": 7,
+      "name": "Bugs Bunny",
+      "title": "Looney Toon",
+      "phoneNumber": "A Rabbit Burrow"
+    },
+    {
+      "id": 8,
+      "name": "Johnny Bravo",
+      "title": "Ladies Man",
+      "phoneNumber": "Aron City"
+    },
+    {
+      "id": 9,
+      "name": "Tommy Pickles",
+      "title": "Adventurer",
+      "phoneNumber": "California"
+    },
+    {
+      "id": 10,
+      "name": "Rocko",
+      "title": "Cashier",
+      "phoneNumber": "202-555-0192"
+    },
+    {
+      "id": 11,
+      "name": "Captain Planet",
+      "title": "Superhero",
+      "phoneNumber": "202-555-0192"
+    },
+    {
+      "id": 12,
+      "name": "Ickis",
+      "title": "Ahhhh! A Real Monster!",
+      "phoneNumber": "202-555-0192"
+    }
+  ]
+  
