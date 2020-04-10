@@ -42,7 +42,7 @@ class Employees extends React.Component{
     const name = this.state.name
     const updatedemployees = this.state.employees.filter(employee => employee.name === name)
     if(updatedemployees < 1){
-      alert("Employee Doesnt Exist, remember to search by first and last name")
+      alert("Employee does not exist, remember to search by first and last name")
     }else{
       this.setState({ employees: updatedemployees});
     }
